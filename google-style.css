@@ -1,3 +1,9 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 ul a {
     list-style-type: none;
     margin: 0;
@@ -16,14 +22,41 @@ li a {
     text-align: center; 
 }
 
-.UL-nav .UR-nav {
+.nav-top {
     position: fixed;
     top: 0;
     width:100%
 }
 
-.LL-nav .LR-nav {
+.nav-bottom {
     position: fixed;
     bottom: 0;
     width:100%
+}
+
+#search-box {
+    border-radius: 10px;
+}
+
+#search-box:hover {
+    border-color: #e2e2e2f6;
+}
+
+.search-button {
+    background-color: #ffffffd2;
+    border: none;
+    font-size: 15px;
+}
+
+.search-button:hover {
+    border: 1px #bebdbdf6 solid;
+    border-radius: 5px;
+}
+
+.search-button:active {
+    border: 1px #2b3ff3 solid;
+}
+
+#logo {
+    position: center;
 }
