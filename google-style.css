@@ -7,8 +7,7 @@ body {
 ul a {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 200px;
+    padding: 80px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
@@ -37,7 +36,10 @@ li {
 }
 
 #search-box {
-    border-radius: 10px;
+    border-radius: 50px;
+    height: 35px;
+    width: 400px;
+    opacity: 0.5;
 }
 
 #search-box:hover {
@@ -48,6 +50,7 @@ li {
     background-color: #ffffffd2;
     border: none;
     font-size: 15px;
+    margin-top: 200px;
 }
 
 .search-button:hover {
@@ -60,13 +63,23 @@ li {
 }
 
 #logo {
-    position: center;
+    display: block;
 }
 
-#submit-button {
+#sign-in {
     background-color: #3856ff;
     color: #ffffff;
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    height: 25px;
+}
+
+ body {
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    padding-top: 300px;
 }
