@@ -1,11 +1,7 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
 header {
     position: fixed;
     top: 0;
-    width:100%
+    width: 1100%
 }
 
 ul a {
@@ -14,7 +10,7 @@ ul a {
     padding: 200px;
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 ul a:hover {
@@ -27,6 +23,16 @@ li {
     text-align: center;
 }
 
+.left {
+    position: relative;
+    text-align: left;
+}
+
+.right {
+    position: absolute;
+    text-align: right;
+}
+
 #sign-in {
     background-color: #3856ff;
     color: #ffffff;
@@ -34,6 +40,10 @@ li {
     border: none;
     border-radius: 2px;
     height: 25px;
+}
+
+body {
+    text-align: center;
 }
 
 #logo {
@@ -52,20 +62,16 @@ li {
 #search-box {
     border-radius: 50px;
     height: 35px;
-    width: 300px;
+    width: 600px;
     opacity: 0.5;
-    display: block;
-    margin: 0px 800px;
-}
-
-#search-box:hover {
-    border-color: #e2e2e2f6;
+    text-align: center;
 }
 
 .search-button {
     background-color: #ffffffd2;
     border: none;
     font-size: 15px;
+    text-align: center;
 }
 
 .search-button:hover {
