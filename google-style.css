@@ -1,13 +1,17 @@
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-
 body {
     font-family: "Montserrat", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width:100%
 }
 
 ul a {
     list-style-type: none;
     margin: 0;
-    padding: 80px;
+    padding: 200px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
@@ -18,52 +22,9 @@ ul a:hover {
 }
 
 li {
-    float: left;
+    float:left;
     list-style-type: none;
     text-align: center;
-}
-
-.nav-top {
-    position: fixed;
-    top: 0;
-    width:100%
-}
-
-.nav-bottom {
-    position: fixed;
-    bottom: 0;
-    width:100%
-}
-
-#search-box {
-    border-radius: 50px;
-    height: 35px;
-    width: 400px;
-    opacity: 0.5;
-}
-
-#search-box:hover {
-    border-color: #e2e2e2f6;
-}
-
-.search-button {
-    background-color: #ffffffd2;
-    border: none;
-    font-size: 15px;
-    margin-top: 200px;
-}
-
-.search-button:hover {
-    border: 1px #bebdbdf6 solid;
-    border-radius: 5px;
-}
-
-.search-button:active {
-    border: 1px #2b3ff3 solid;
-}
-
-#logo {
-    display: block;
 }
 
 #sign-in {
@@ -75,11 +36,51 @@ li {
     height: 25px;
 }
 
- body {
-    position: relative;
-    text-align: center;
+#logo {
+    display: block;
+    margin: 175px auto;
+}
+
+.middle-segment {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: block;
+    margin: auto auto;
+}
+
+#search-box {
+    border-radius: 50px;
+    height: 35px;
+    width: 300px;
+    opacity: 0.5;
+    display: block;
+    margin: 0px 800px;
+}
+
+#search-box:hover {
+    border-color: #e2e2e2f6;
+}
+
+.search-button {
+    background-color: #ffffffd2;
+    border: none;
+    font-size: 15px;
+}
+
+.search-button:hover {
+    border: 1px #bebdbdf6 solid;
+    border-radius: 5px;
+}
+
+.search-button:active {
+    border: 1px #2b3ff3 solid;
 }
 
 footer {
-    padding-top: 300px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color: rgb(224, 224, 224);
+    padding: 20px 0;
 }
